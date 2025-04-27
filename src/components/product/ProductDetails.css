@@ -1,0 +1,115 @@
+.product-details {
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+}
+
+.product-header {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px;
+  align-items: center; 
+}
+
+.product-image-detail {
+  max-width: 300px; 
+  height: auto;
+  border-radius: 6px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+.product-info-detail {
+  flex-grow: 1; 
+}
+
+.product-info-detail h2 {
+  color: #333;
+  font-size: 1.8em;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.product-info-detail .product-brand {
+  color: #777;
+  font-size: 1em;
+  margin-bottom: 8px;
+}
+
+.product-info-detail .rating-stars {
+  margin-bottom: 12px;
+}
+
+.product-info-detail .product-price {
+  color: #28a745; 
+  font-size: 1.4em;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.product-info-detail .product-description {
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.review-list {
+  margin-top: 30px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+.review-list h3 {
+  color: #333;
+  font-size: 1.4em;
+  margin-top: 0;
+  margin-bottom: 15px;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 10px;
+}
+
+.add-review-form {
+  margin-top: 30px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+.add-review-form h3 {
+  color: #333;
+  font-size: 1.4em;
+  margin-top: 0;
+  margin-bottom: 15px;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 10px;
+}
+
+.add-review-form .form-group {
+  margin-bottom: 15px;
+}
+
+.add-review-form label {
+  display: block;
+  margin-bottom: 5px;
+  color: #555;
+  font-weight: bold;
+}
+
+.add-review-form input[type="text"],
+.add-review-form input[type="number"],
+.add-review-form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 1em;
+  box-sizing: border-box; 
+}
+
+.add-review-form textarea {
+  min-height: 100px;
+}

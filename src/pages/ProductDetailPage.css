@@ -1,0 +1,22 @@
+.product-detail-page {
+    padding: 20px;
+    background-color: #f8f8f8; 
+    display: flex;
+    justify-content: center; 
+    align-items: flex-start; 
+    min-height: calc(100vh - /* Altura del header */ - /* Altura del footer */ -40px); 
+  }
+  
+  .product-detail-page > div { 
+    width: 90%; 
+    max-width: 1200px; 
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  @media (max-width: 768px) {
+    .product-detail-page > div {
+      width: 95%;
+    }
+  }
+  

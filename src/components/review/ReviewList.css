@@ -1,0 +1,21 @@
+.review-list {
+    padding: 20px;
+    background-color: #f9f9f9; 
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+    margin-bottom: 20px;
+  }
+  
+  .review-list h3 {
+    color: #333;
+    font-size: 1.4em;
+    margin-top: 0;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #eee; 
+    padding-bottom: 10px;
+  }
+  
+  .review-list p {
+    color: #777; 
+    font-style: italic;
+  }

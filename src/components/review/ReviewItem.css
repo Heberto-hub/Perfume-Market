@@ -1,0 +1,26 @@
+.review-item {
+    padding: 15px;
+    background-color: #fff; 
+    border-radius: 6px;
+    border: 1px solid #ddd; 
+    margin-bottom: 15px; 
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05); 
+  }
+  
+  .review-item h4 {
+    color: #948181; 
+    font-size: 1.1em;
+    margin-top: 0;
+    margin-bottom: 5px;
+    font-weight: bold; 
+  }
+  
+  .review-item .rating-stars {
+    margin-bottom: 8px;
+  }
+  
+  .review-item p {
+    color: #777; 
+    line-height: 1.6; 
+    margin-bottom: 0;
+  }

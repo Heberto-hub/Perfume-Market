@@ -1,0 +1,27 @@
+.home-page {
+    padding: 30px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  }
+  
+  .home-page h2 {
+    color: #333;
+    font-size: 2em;
+    margin-top: 0;
+    margin-bottom: 20px;
+    text-align: center; 
+  }
+  
+  .home-intro {
+    color: #555;
+    font-size: 1.1em;
+    line-height: 1.7;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  
+  .home-page > div:last-child { /* Selecciona el último div hijo (asumiendo que ProductList es el último) */
+    margin-top: 20px;
+  }
+  
